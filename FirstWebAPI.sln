@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebAPI", "FirstWebAPI\FirstWebAPI.csproj", "{F917A618-B91D-4A7C-A1A3-4100893359C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWebApiDAL", "FirstWebApiDAL\FirstWebApiDAL.csproj", "{637A57BC-FD1D-461C-A1CA-6E00026464B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFirstWebApi", "TestFirstWebApi\TestFirstWebApi.csproj", "{14B0DDB5-81CB-4C45-95F7-CB8A3AD7FE1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14B0DDB5-81CB-4C45-95F7-CB8A3AD7FE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B0DDB5-81CB-4C45-95F7-CB8A3AD7FE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B0DDB5-81CB-4C45-95F7-CB8A3AD7FE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B0DDB5-81CB-4C45-95F7-CB8A3AD7FE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637A57BC-FD1D-461C-A1CA-6E00026464B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637A57BC-FD1D-461C-A1CA-6E00026464B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637A57BC-FD1D-461C-A1CA-6E00026464B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637A57BC-FD1D-461C-A1CA-6E00026464B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F917A618-B91D-4A7C-A1A3-4100893359C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F917A618-B91D-4A7C-A1A3-4100893359C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F917A618-B91D-4A7C-A1A3-4100893359C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F917A618-B91D-4A7C-A1A3-4100893359C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

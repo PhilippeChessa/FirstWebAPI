@@ -1,0 +1,28 @@
+﻿<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title">
+                <a href="~/">ASP.NET Web API</a></p>
+        </div>
+    </div>
+     <script src="../../Scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Envoi de la requête Ajax
+            $.getJSON("api/Customer/",
+            function (data) {
+                // En cas de succès, 'data' contient la liste des clients.
+                $.each(data, function (key, val) {
+
+                    var str = val.Id + ' ' + val.FirstName + ' ' + val.LastName;
+
+                    $('<li/>', { html: str }).appendTo($('#customers'));
+                });
+            });
+        });
+    </script>
+</header>
+<div id="body">
+   <h1>Customers</h1>
+        <ul id='customers' />
+</div>
